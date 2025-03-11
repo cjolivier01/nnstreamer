@@ -1,0 +1,3 @@
+#!/bin/bash
+# -Donnxruntime-support=enabled
+meson setup --reconfigure -Ddebug=true -Dtensorrt10-support=enabled -Dvideo-support=enabled builddir
